@@ -1,6 +1,7 @@
 # Weather App
 
 A weather forecast app that shows real-time conditions for any city. Built with JavaScript and bundled with Webpack. 
+<img width="601" height="441" alt="SCR-20260204-luhb" src="https://github.com/user-attachments/assets/f51d55dd-6857-4853-8b36-53abdbf078f0" />
 
 ## What It Does
 
