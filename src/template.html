@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+</head>
+<body>
+  <header>
+    <h1>Weather Forecast</h1>
+    <form id="search-form">
+      <input type="text" id="location-input" placeholder="Enter city name" required>
+      <button type="submit">Search</button>
+    </form>
+    <label>
+      <input type="checkbox" id="unit-toggle">
+      Display in °C
+    </label>
+  </header>
+  
+  <main id="weather-display">
+    <!-- Weather data will be rendered here -->
+    <div id="loading" class="hidden">Loading...</div>
+  </main>
+</body>
+</html>
