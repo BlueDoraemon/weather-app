@@ -1,4 +1,7 @@
-const API_KEY = "YOUR_API_KEY"; // Use WeatherAPI or Visual Crossing
+
+// using env instead
+const API_KEY = process.env.API_KEY;
+
 const BASE_URL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline";
 
 async function fetchWeather(location) {
